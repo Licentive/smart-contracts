@@ -3,7 +3,6 @@ pragma solidity ^0.4.25;
 import "github.com/OpenZeppelin/zeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "github.com/OpenZeppelin/zeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
 
-
 /**
  * @title LCTV ERC20 token 
  * @author mierzwik
