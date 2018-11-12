@@ -79,7 +79,6 @@ contract Dispatcher {
      */
     mapping (address => address) public licensors;
     
-    
     /**
     * @dev Constructor setting the administrative adresses
     * @param _address The address of the LCTV token contract
