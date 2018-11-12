@@ -6,7 +6,7 @@ import "github.com/OpenZeppelin/zeppelin-solidity/contracts/token/ERC20/ERC20Det
 
 /**
  * @title LCTV ERC20 token 
- * @author Tomasz Mierzwa
+ * @author mierzwik
  * @dev Implementation of standard ERC20 Licentive (LCTV) token
  *      includes payAndCall function for licentive platform transactions
  * Note: Initial suply set to 1mil tokens, no additional minting allowed
@@ -60,7 +60,7 @@ contract LCTV is ERC20, ERC20Detailed {
 
 /**
  * @title Dispatcher contract
- * @author Tomasz Mierzwa
+ * @author mierzwik
  * @dev Implementation of dispatcher responsible for license contracts maintenance
  * Note: Should be called with LCTV token contract address
  */
@@ -152,7 +152,7 @@ contract Dispatcher {
 
 /**
  * @title License Contract
- * @author Tomasz Mierzwa
+ * @author mierzwik
  * @dev Implementation of the main license contract
  * Note: Each software product is assumed to use only one License Contract
  */
